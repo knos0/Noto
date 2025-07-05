@@ -1,0 +1,1 @@
+Simple project to showcase AWS Skills. This readme will be updated as time goes on.
