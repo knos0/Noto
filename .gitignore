@@ -1,10 +1,46 @@
-# .gitignore
+# Byte-compiled / cache
 __pycache__/
-*.pyc
-*.env
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Flask instance folder
+instance/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Environment variables
 .env
-node_modules/
-terraform/.terraform/
-*.tfstate
-*.tfstate.*
+*.env
+
+# Pytest / test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Mac/Linux hidden files
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
 *.log
